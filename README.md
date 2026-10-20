@@ -11,7 +11,7 @@ No build tools or dependencies are required.
 
 | File | Content |
 | --- | --- |
-| `index.html` | Overview, dates, topics, program highlights, organizers |
+| `index.html` | Short overview, important dates, reviewer-call link |
 | `cfp.html` | Call for papers and submission guidance |
 | `committee.html` | Organizers and Call for Reviewers |
 | `program.html` | Planned format and discussion panelist placeholder |
@@ -21,8 +21,8 @@ No build tools or dependencies are required.
 | `assets/site.js` | Mobile navigation and section highlighting |
 
 Navigation and footer are plain HTML repeated across the six pages; update all
-pages when changing either. Dates and submission guidance appear on both Home
-and CFP and should be kept consistent.
+pages when changing either. Dates appear on both Home and CFP and should be kept consistent. Detailed
+topics and submission guidance live on CFP; organizer profiles live on Committee.
 
 ## Content and design sources
 
@@ -37,7 +37,7 @@ The current Dublin city banner is the image selected by the organizer:
 https://content.r9cdn.net/rimg/dimg/43/32/a04a5913-city-7362-163d136d1df.jpg?width=1366&height=768&crop=true.
 
 Submission guidance allows publication in the ACM Web Conference 2027 Companion
-Proceedings, with an author opt-out. Home and CFP share the same three topic
+Proceedings, with an author opt-out. The CFP covers three topic
 areas: identifier design and learning, evaluation and comparison, and deployment
 and adaptation. The topic list is indicative, with other ID-related applications
 and explorations in Web systems welcome.

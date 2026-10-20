@@ -637,3 +637,14 @@ body {
 .presentation-placeholder { padding:26px; background:var(--cream); border-left:3px solid var(--accent); }
 .presentation-placeholder p { margin:0; color:var(--muted); }
 @media(max-width:760px) { .keynote-speaker { grid-template-columns:1fr; gap:18px; } .speaker-photo { width:132px; height:132px; } .person-photo { width:110px; height:110px; } .reviewer-callout { padding:22px; } }
+
+/* The homepage is a short introduction; detailed content lives in its own tabs. */
+.home-content {
+  max-width:900px;
+  padding-top:48px;
+  padding-bottom:48px;
+}
+.home-content .reviewer-callout p { margin-bottom:0; }
+@media(max-width:760px) {
+  .home-content { padding-top:30px; padding-bottom:36px; }
+}
