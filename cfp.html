@@ -38,57 +38,53 @@ Call for Papers
 </aside>
 <div class="main-content">
 <section id="call" class="content-section">
-<h2>
-Call for Papers
-</h2>
-<p>
-IDEA invites work on model-facing item identifiers in Web retrieval and ranking, spanning search, recommendation, and advertising. We welcome completed methods as well as concrete operational experiences, early results, and questions that benefit from community discussion.
-</p>
+<h2>Call for Papers</h2>
+<p>IDEA invites research on <strong>raw (atomic), semantic, and hybrid item identifiers</strong> as learned features or token sequences in Web systems. We welcome work on raw-ID embeddings, semantic codes, and hybrid representations for search, recommendation, advertising, and related applications.</p>
+<p>Our focus spans the lifecycle of these representations: their construction and learning, the evidence supporting their use, and their adaptation as catalogs, interaction signals, and models change. Contributions may study any one ID family or compare multiple designs; a comparison with semantic IDs is not required. We welcome completed methods, empirical findings, deployment experiences, and early work that can benefit from community discussion.</p>
 </section>
 <section id="topics" class="content-section">
 <h2>Topics of Interest</h2>
-<p>IDEA focuses on three areas: <strong>identifier design and learning, evaluation and comparison, and deployment and adaptation</strong>. We welcome work on raw, semantic, and hybrid IDs across search, recommendation, advertising, and other Web systems. The topics below are indicative rather than exhaustive; other applications and explorations of ID-based features and representations in Web systems are also welcome.</p>
+<p>We focus on three areas: <strong>identifier design and learning, evaluation and comparison of ID representations, and deployment and adaptation</strong>. Topics include, but are not limited to, the following. Other applications and explorations of ID-based features and token representations in Web systems are also welcome.</p>
 <div class="topic">
 <h3>Identifier Design and Learning</h3>
 <ul>
-<li>Raw, semantic, and hybrid identifiers for retrieval, ranking, and generative recommendation.</li>
-<li>Content-based, collaborative, and multimodal identifier construction.</li>
+<li>Raw-ID embeddings, item-specific memorization, and integration with content and behavioral features.</li>
+<li>Semantic ID construction from content, collaborative signals, and multimodal representations.</li>
 <li>Discrete representation learning, quantization, tokenization, and codebook design.</li>
-<li>Joint optimization of identifiers with retrieval and ranking models.</li>
-<li>Item-specific memorization, cross-item generalization, and integration with other item features.</li>
+<li>Hybrid identifiers combining atomic and structured components.</li>
+<li>Joint learning of ID representations with retrieval, ranking, or generative models.</li>
 <li>Shared identifier spaces and representation transfer across tasks and domains.</li>
 </ul>
 </div>
 <div class="topic">
 <h3>Evaluation and Comparison</h3>
 <ul>
-<li>Controlled comparisons, ablation studies, reproducibility, and negative results.</li>
-<li>Beyond-accuracy evaluation, including diversity, novelty, coverage, fairness, and user utility.</li>
-<li>Cold-start and long-tail performance, robustness, and generalization across tasks and domains.</li>
-<li>Identifier quality, code utilization, collisions, and representation stability.</li>
-<li>Offline evaluation, online experimentation, and longitudinal assessment.</li>
-<li>Computational and operational efficiency, including memory, latency, and update costs.</li>
+<li>Evaluation protocols and benchmarks for ID representations, with controlled comparisons that isolate identifier choices from changes in features, models, and training.</li>
+<li>Memorization and generalization properties of raw-ID embeddings, semantic codes, and hybrid representations, including cold-start and long-tail behavior.</li>
+<li>Representation quality and downstream utility, including code utilization, collisions, semantic–behavioral alignment, and their relationship to retrieval and ranking effectiveness.</li>
+<li>Beyond-accuracy effects of identifier design, including diversity, novelty, coverage, fairness, and user utility.</li>
+<li>Robustness and stability of ID representations under catalog changes, sparse feedback, and distribution shift.</li>
+<li>Efficiency trade-offs of ID representations, including embedding-table and codebook size, token-sequence length, training cost, and inference latency.</li>
 </ul>
 </div>
 <div class="topic">
 <h3>Deployment and Adaptation</h3>
 <ul>
-<li>Identifier and embedding staleness under catalog evolution and distribution shift.</li>
-<li>Incremental ID assignment, continual learning, and refreshing outdated representations.</li>
-<li>Codebook and encoder updates, re-indexing, and coordination with model retraining.</li>
-<li>Backward compatibility, versioning, ID migration, and historical interaction consistency.</li>
-<li>Drift monitoring, update strategies, and trade-offs between freshness and stability.</li>
-<li>Industrial deployments, scalability, serving constraints, and operational lessons.</li>
+<li>Raw-ID embedding and semantic-code staleness as item content, interaction patterns, and catalogs evolve.</li>
+<li>Incremental ID assignment and representation learning for new and changing items, including cold-start initialization.</li>
+<li>Embedding refresh, semantic-code reassignment, and codebook or encoder updates, with trade-offs between freshness and representation stability.</li>
+<li>Versioning, backward compatibility, and migration of ID features or tokens, preserving item resolution and historical interaction consistency.</li>
+<li>Coordination of ID representation updates with model retraining, index maintenance, and serving infrastructure.</li>
+<li>Continual and cross-domain adaptation of ID representations, drift monitoring, and experience from industrial deployments.</li>
 </ul>
 </div>
-
 </section>
 <section id="submission" class="content-section">
 <h2>
 Submission Guidelines
 </h2>
 <p>
-We welcome technical studies, controlled comparisons, reproducibility work, negative results, deployment experiences, and position statements. Contributions may address any aspect of ID-based features and representations within the workshop’s scope.
+We welcome technical studies, controlled comparisons, reproducibility work, negative results, deployment experiences, and position statements. Contributions may address raw, semantic, or hybrid ID representations within the workshop’s scope; both studies of individual designs and comparisons across ID families are welcome.
 </p>
 <ul>
 <li>
