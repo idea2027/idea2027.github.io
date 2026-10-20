@@ -33,10 +33,8 @@ use AoE. Unconfirmed talk details, submission rules, and program times remain
 marked as to be announced. The proposal PDF is not included in this repository.
 
 Layout and visual direction follow https://hcrs2027.github.io/ as requested.
-The current trial banner is the landscape Dublin Castle photo from Kelly Prince
-Writes, selected from the article supplied by the organizer:
-https://www.kellyprincewrites.com/25-magical-things-to-do-in-dublin/
-(image: https://www.kellyprincewrites.com/wp-content/uploads/2025/09/Dublin2-KellyPrinceWright10.jpeg).
+The current Dublin city banner is the image selected by the organizer:
+https://content.r9cdn.net/rimg/dimg/43/32/a04a5913-city-7362-163d136d1df.jpg?width=1366&height=768&crop=true.
 
 Submission guidance allows publication in the ACM Web Conference 2027 Companion
 Proceedings, with an author opt-out. Home and CFP share the same three topic

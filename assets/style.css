@@ -86,7 +86,7 @@ a:focus-visible,button:focus-visible {
   top:8px
 }
 .hero {
-  background:#9b6038 url('dublin-castle.jpg') center 45%/cover no-repeat;
+  background:#9b6038 url('dublin-city.jpg') center 50%/cover no-repeat;
   min-height:600px;
   display:flex;
   align-items:center;
