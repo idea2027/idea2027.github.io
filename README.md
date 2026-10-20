@@ -14,7 +14,7 @@ No build tools or dependencies are required.
 | `index.html` | Overview, dates, topics, program highlights, organizers |
 | `cfp.html` | Call for papers and submission guidance |
 | `committee.html` | Organizers and Call for Reviewers |
-| `program.html` | Planned format and discussion panelists |
+| `program.html` | Planned format and discussion panelist placeholder |
 | `papers.html` | Oral and poster presentation placeholders |
 | `keynote.html` | Confirmed keynote speakers |
 | `assets/style.css` | Shared design and responsive layout |
@@ -33,8 +33,10 @@ use AoE. Unconfirmed talk details, submission rules, and program times remain
 marked as to be announced. The proposal PDF is not included in this repository.
 
 Layout and visual direction follow https://hcrs2027.github.io/ as requested.
-The Dublin sunset banner is the image selected by the organizer from Ryanair:
-https://www.ryanair.com/flights/dam2/travel-tips/city/dublin/DUBLIN_r1.jpg.
+The current trial banner is the landscape Dublin Castle photo from Kelly Prince
+Writes, selected from the article supplied by the organizer:
+https://www.kellyprincewrites.com/25-magical-things-to-do-in-dublin/
+(image: https://www.kellyprincewrites.com/wp-content/uploads/2025/09/Dublin2-KellyPrinceWright10.jpeg).
 
 Submission guidance allows publication in the ACM Web Conference 2027 Companion
 Proceedings, with an author opt-out. Home and CFP share the same three topic
