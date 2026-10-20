@@ -33,9 +33,14 @@ use AoE. Unconfirmed talk details, submission rules, and program times remain
 marked as to be announced. The proposal PDF is not included in this repository.
 
 Layout and visual direction follow https://hcrs2027.github.io/ as requested.
-The new Ha'penny Bridge / River Liffey sunset banner is sourced from UCEAP:
-https://uceap.universityofcalifornia.edu/life-in-dublin-ireland
-(image: https://uceap.universityofcalifornia.edu/sites/default/files/marketing-images/life-in-city-images/dublin-ireland-header-new.jpg).
+The Dublin sunset banner is the image selected by the organizer from Ryanair:
+https://www.ryanair.com/flights/dam2/travel-tips/city/dublin/DUBLIN_r1.jpg.
+
+Submission guidance allows publication in the ACM Web Conference 2027 Companion
+Proceedings, with an author opt-out. Home and CFP share the same three topic
+areas: identifier design and learning, evaluation and comparison, and deployment
+and adaptation. The topic list is indicative, with other ID-related applications
+and explorations in Web systems welcome.
 
 Portrait and profile sources:
 
