@@ -86,16 +86,29 @@ a:focus-visible,button:focus-visible {
   top:8px
 }
 .hero {
-  background:#9b6038 url('dublin-city.jpg') center 50%/cover no-repeat;
+  position:relative;
+  isolation:isolate;
+  background:#7c573d;
   min-height:600px;
   display:flex;
   align-items:center;
-  padding:60px 0
+  padding:0
+}
+.hero::before {
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:url('dublin-city.jpg') center 32%/cover no-repeat;
+  filter:saturate(.62) sepia(.24)
 }
 .hero-overlay {
   width:100%;
-  background:linear-gradient(180deg,rgba(76,37,14,.46),rgba(52,27,13,.72));
-  padding:36px 24px 40px
+  min-height:inherit;
+  display:grid;
+  place-items:center;
+  background:linear-gradient(180deg,rgba(80,48,28,.38),rgba(59,35,21,.60));
+  padding:60px 24px
 }
 .hero-copy {
   text-align:center;
@@ -502,11 +515,13 @@ footer a {
 }
 .hero {
   min-height:570px;
-  padding:32px 0;
+  padding:0
+}
+.hero::before {
   background-position:45% center
 }
 .hero-overlay {
-  padding:30px 18px
+  padding:42px 18px
 }
 .hero h1 {
   font-size:31px;
