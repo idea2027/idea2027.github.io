@@ -1,22 +1,345 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="IDEA 2027 workshop. More details coming soon.">
-    <title>IDEA 2027 Workshop</title>
-    <style>
-      body { margin: 0; min-height: 100vh; display: grid; place-items: center; font-family: system-ui, sans-serif; color: #172033; background: #f5f7fb; }
-      main { padding: 3rem 1.5rem; text-align: center; }
-      h1 { font-size: clamp(2.5rem, 8vw, 5rem); margin: 0 0 1rem; }
-      p { font-size: 1.15rem; line-height: 1.6; color: #526078; }
-    </style>
-  </head>
-  <body>
-    <main>
-      <h1>IDEA 2027</h1>
-      <p>Workshop website</p>
-      <p>More details coming soon.</p>
-    </main>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IDEA@WWW 2027 - Item IDentifiers Design, Evaluation, and Adaptation</title>
+<meta name="description" content="IDEA 2027: The First International Workshop on Item IDentifiers Design, Evaluation, and Adaptation. Raw, semantic, and hybrid IDs for search, recommendation, and advertising.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/site.js" defer>
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="container header-inner">
+<a class="brand" href="index.html">IDEA@WWW 2027</a><button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu <span aria-hidden="true">☰</span></button>
+<nav id="site-nav" aria-label="Main navigation">
+<a href="index.html" aria-current="page">Home</a><a href="cfp.html">CFP</a><a href="committee.html">Committee</a><a href="program.html">Program</a><a href="papers.html">Accepted Papers</a><a href="keynote.html">Keynote</a>
+</nav>
+</div>
+</header>
+<section class="hero" aria-labelledby="hero-title">
+<div class="hero-overlay">
+<div class="hero-copy">
+<p class="eyebrow">
+The Web Conference 2027 · Dublin, Ireland
+</p>
+<h1 id="hero-title">
+<span>The First International Workshop on</span><br>Item IDentifiers Design,<br>Evaluation, and Adaptation
+</h1>
+<p class="hero-acronym">
+IDEA 2027
+</p>
+<ul class="hero-details">
+<li>
+▦ &nbsp;Date TBA
+</li>
+<li>
+◷ &nbsp;Half-day workshop
+</li>
+<li>
+⌖ &nbsp;In person · Dublin
+</li>
+</ul>
+<p class="hero-deadline">
+Paper submission deadline: <strong>To be announced</strong>
+</p>
+<a class="button hero-button" href="cfp.html">Call for Papers</a>
+</div>
+</div>
+</section>
+<main id="main" class="container page-layout">
+<aside class="toc">
+<nav aria-label="Page sections">
+<p>
+ON THIS PAGE
+</p>
+<a href="#overview">Overview</a><a href="#important-dates">Important Dates</a><a href="#objectives">Workshop Objectives</a><a href="#call-for-papers">Call for Papers</a><a href="#submission">Submission Guidelines</a><a href="#program-highlights">Program Highlights</a><a href="#roadmap">Community Roadmap</a><a href="#organizers">Organizing Committee</a>
+</nav>
+</aside>
+<div class="main-content">
+<section id="overview" class="content-section">
+<h2>
+Overview
+</h2>
+<p>
+Web search, recommendation, and advertising connect users to changing collections of documents, products, and media. Item identifiers shape how models share information across items, preserve item-specific distinctions, and adapt as catalogs evolve.
+</p>
+<p>
+The First International Workshop on <strong>Item IDentifiers Design, Evaluation, and Adaptation (IDEA)</strong> brings together researchers and practitioners working on <strong>raw, semantic, and hybrid IDs</strong>. We examine three connected questions: what should IDs encode, what evidence justifies an ID choice, and what must survive when representations are updated?
+</p>
+<p>
+Through keynote talks, contributed work, and open discussion, IDEA will bring controlled comparisons, negative results, and deployment experience into a shared conversation across search, recommendation, and advertising.
+</p>
+</section>
+<section id="important-dates" class="content-section">
+<h2>
+Important Dates
+</h2>
+<dl class="dates">
+<div>
+<dt>
+Paper submission deadline
+</dt>
+<dd>
+To be announced
+</dd>
+</div>
+<div>
+<dt>
+Author notification
+</dt>
+<dd>
+To be announced
+</dd>
+</div>
+<div>
+<dt>
+Camera-ready deadline
+</dt>
+<dd>
+To be announced
+</dd>
+</div>
+<div>
+<dt>
+Workshop day
+</dt>
+<dd>
+TBA · The Web Conference 2027<br><span>May 10–14, 2027 · Dublin, Ireland</span>
+</dd>
+</div>
+</dl>
+<p class="note">
+The workshop date and submission timeline will be confirmed here.
+</p>
+</section>
+<section id="objectives" class="content-section">
+<h2>
+Workshop Objectives
+</h2>
+<p>
+Bring competing perspectives on item identifiers into conversation, challenge assumptions about what IDs should do, and establish the evidence needed to compare their benefits. IDEA gives equal consideration to raw, semantic, and hybrid IDs, including evidence in favor of retaining an existing design.
+</p>
+</section>
+<section id="call-for-papers" class="content-section">
+<h2>
+Call for Papers
+</h2>
+<div class="topic">
+<h3>
+Designing and learning
+</h3>
+<p>
+How should item IDs be constructed and used?
+</p>
+<ul>
+<li>
+Raw, semantic, and hybrid identifier designs.
+</li>
+<li>
+Content, collaborative signals, and multimodal ID construction.
+</li>
+<li>
+Joint learning of identifiers and retrieval or ranking models.
+</li>
+<li>
+Information sharing, item-specific distinctions, and feature-based alternatives.
+</li>
+</ul>
+</div>
+<div class="topic">
+<h3>
+Evaluating and comparing
+</h3>
+<p>
+What evidence supports an identifier choice?
+</p>
+<ul>
+<li>
+Controlled comparisons and attribution of gains to ID design.
+</li>
+<li>
+Reproducibility studies and negative results.
+</li>
+<li>
+New-item and long-tail performance across search and recommendation.
+</li>
+<li>
+Memory, latency, and update costs.
+</li>
+</ul>
+</div>
+<div class="topic">
+<h3>
+Deploying and evolving
+</h3>
+<p>
+How should IDs be maintained as items and models change?
+</p>
+<ul>
+<li>
+Catalog updates, new items, and representation stability.
+</li>
+<li>
+Encoder changes, code refreshes, and index maintenance.
+</li>
+<li>
+Historical interactions and correct item resolution.
+</li>
+<li>
+Coordinating representation updates with model retraining.
+</li>
+</ul>
+</div>
+<p>
+<a href="cfp.html">View the full call and submission guidance →</a>
+</p>
+</section>
+<section id="submission" class="content-section">
+<h2>
+Submission Guidelines
+</h2>
+<p>
+We welcome technical studies, controlled comparisons, reproducibility work, negative results, deployment experiences, and position statements. Contributions should make a concrete identifier-design decision, comparison, or failure case clear.
+</p>
+<ul>
+<li>
+<strong>Review:</strong> the working plan is at least three non-conflicted Program Committee reviews per submission, with an unconflicted review lead handling disagreements and organizer submissions.
+</li>
+<li>
+<strong>Proceedings:</strong> eligible accepted papers may enter the Companion Proceedings, subject to the conference’s publication conditions.
+</li>
+<li>
+<strong>Non-archival contributions:</strong> a separate route for position statements and discussion contributions is planned.
+</li>
+</ul>
+<div class="notice">
+<strong>Submission details to be announced</strong>
+<p>
+Paper lengths, formatting instructions, anonymity policy, deadlines, submission platform, and final publication policies will be published when confirmed. Submissions are not open yet.
+</p>
+</div>
+</section>
+<section id="program-highlights" class="content-section">
+<h2>
+Program Highlights
+</h2>
+<p>
+A half-day, in-person workshop is planned, with substantial time for audience participation.
+</p>
+<ul class="spaced">
+<li>
+<strong>Keynote talks</strong> connecting research findings with deployment perspectives.
+</li>
+<li>
+<strong>Contributed presentations</strong> including technical talks, lightning talks, and demonstrations.
+</li>
+<li>
+<strong>Poster exchanges</strong> supporting informal conversations during the coffee break.
+</li>
+<li>
+<strong>Brainstorming and open discussion</strong> comparing evidence and identifying useful next experiments.
+</li>
+</ul>
+<p>
+<a href="program.html">Explore the planned program →</a>
+</p>
+</section>
+<section id="roadmap" class="content-section">
+<h2>
+Community Roadmap
+</h2>
+<p>
+IDEA aims to produce a public <strong>Community Roadmap</strong>: a short workshop report bringing together findings and deployment lessons, unresolved disagreements, priorities for follow-up studies, and shared collaboration resources.
+</p>
+<p>
+The organizers will invite contributors to check the summary before publication. The report will be made available on this website.
+</p>
+</section>
+<section id="organizers" class="content-section">
+<h2>
+Organizing Committee
+</h2>
+<div class="people">
+<article class="person">
+<div class="initials" aria-hidden="true">
+RZ
+</div>
+<h3>
+<a href="mailto:roger.zhe.li@huawei.com">Roger Zhe Li</a>
+</h3>
+<p>
+Huawei Ireland Research Center<br><span>Dublin, Ireland</span>
+</p>
+</article>
+<article class="person">
+<div class="initials" aria-hidden="true">
+CJ
+</div>
+<h3>
+<a href="mailto:changhong.jin@ucd.ie">Changhong Jin</a>
+</h3>
+<p>
+University College Dublin<br><span>Dublin, Ireland</span>
+</p>
+</article>
+<article class="person">
+<div class="initials" aria-hidden="true">
+JF
+</div>
+<h3>
+<a href="mailto:j.fu.3@research.gla.ac.uk">Junchen Fu</a>
+</h3>
+<p>
+University of Glasgow<br><span>Glasgow, UK</span>
+</p>
+</article>
+<article class="person">
+<div class="initials" aria-hidden="true">
+MM
+</div>
+<h3>
+<a href="mailto:mm@di.ku.dk">Maria Maistro</a>
+</h3>
+<p>
+University of Copenhagen<br><span>Copenhagen, Denmark</span>
+</p>
+</article>
+<article class="person">
+<div class="initials" aria-hidden="true">
+JM
+</div>
+<h3>
+<a href="mailto:joemon.jose@glasgow.ac.uk">Joemon M. Jose</a>
+</h3>
+<p>
+University of Glasgow<br><span>Glasgow, UK</span>
+</p>
+</article>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container footer-inner">
+<div>
+<a class="footer-brand" href="index.html">IDEA@WWW 2027</a>
+<p>
+Item IDentifiers Design, Evaluation, and Adaptation
+</p>
+</div>
+<div>
+<p>
+Dublin, Ireland · The Web Conference 2027
+</p>
+<p>
+Contact: <a href="mailto:roger.zhe.li@huawei.com">Roger Zhe Li</a>
+</p>
+</div>
+</div>
+</footer>
+</body>
 </html>
