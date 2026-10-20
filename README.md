@@ -13,9 +13,9 @@ No build tools or dependencies are required.
 | --- | --- |
 | `index.html` | Overview, dates, topics, program highlights, organizers |
 | `cfp.html` | Call for papers and submission guidance |
-| `committee.html` | Organizers and confirmed Program Committee |
+| `committee.html` | Organizers and Call for Reviewers |
 | `program.html` | Planned format and discussion panelists |
-| `papers.html` | Accepted papers placeholder |
+| `papers.html` | Oral and poster presentation placeholders |
 | `keynote.html` | Confirmed keynote speakers |
 | `assets/style.css` | Shared design and responsive layout |
 | `assets/site.js` | Mobile navigation and section highlighting |
@@ -27,14 +27,29 @@ and CFP and should be kept consistent.
 ## Content and design sources
 
 First-draft content is adapted from the organizers' supplied IDEA workshop
-proposal. Unconfirmed dates, talk details, submission rules, and program times
-remain marked as to be announced. Organizer portraits use initials until photos
-are supplied. The proposal PDF is not included in this repository.
+proposal. Submission (January 4), notification (February 1), and camera-ready
+(February 16) dates in 2027 follow HCRS 2027 at the organizer's request; deadlines
+use AoE. Unconfirmed talk details, submission rules, and program times remain
+marked as to be announced. The proposal PDF is not included in this repository.
 
 Layout and visual direction follow https://hcrs2027.github.io/ as requested.
-The Dublin banner is retained from that reference at
-https://hcrs2027.github.io/img/hero-beckett-bridge-dusk-full.jpg.
-Confirm image attribution or replace the banner before public release.
+The new Ha'penny Bridge / River Liffey sunset banner is sourced from UCEAP:
+https://uceap.universityofcalifornia.edu/life-in-dublin-ireland
+(image: https://uceap.universityofcalifornia.edu/sites/default/files/marketing-images/life-in-city-images/dublin-ireland-header-new.jpg).
+
+Portrait and profile sources:
+
+- Roger Zhe Li and Changhong Jin photos: https://semantic-id-tutorial.github.io/presenters.html
+- Roger homepage: https://www.zhe-li.me/
+- Changhong profile: https://ie.linkedin.com/in/changhong-jin (no standalone homepage verified)
+- Junchen Fu photo and homepage: https://junchen-fu.github.io/
+- Maria Maistro photo: https://sigir2025.dei.unipd.it/organization-chairs.html; homepage: https://mmaistro.github.io/
+- Joemon M. Jose photo and profile: https://www.gla.ac.uk/schools/computing/staff/joemonjose/
+- Huifeng Guo photo and linked Scholar profile: https://advanced-recommender-systems.github.io/AutoML-Recommendations/
+- Neil Shah photo, homepage, and updated Pinterest biography: https://nshah.net/
+
+The reviewer-interest button currently opens an email to Roger; replace it in
+Home and Committee when a dedicated IDEA reviewer form is ready.
 
 To preview locally:
 
