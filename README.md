@@ -1,6 +1,6 @@
 # IDEA 2027 Workshop
 
-Planned website: https://idea2027.github.io/ (not published yet)
+Website: https://idea2027.github.io/
 
 Repository: https://github.com/idea2027/idea2027.github.io
 
@@ -78,10 +78,9 @@ git commit -m "Update workshop website"
 git push origin main
 ```
 
-The repository is currently private and GitHub Pages is not enabled.
-On GitHub Free for organizations, Pages requires a public repository.
-When ready to publish, make the repository public or use a plan that supports
-Pages from private repositories, then configure Settings → Pages to deploy
-from the root of the `main` branch. Once enabled, pushes publish automatically.
+The repository is public and GitHub Pages is enabled with HTTPS enforced.
+GitHub publishes automatically from the root of the `main` branch after each
+push. Publication may take a few minutes; check Actions and Settings → Pages
+for deployment status.
 
 The `.nojekyll` file keeps publication as a plain static website.
